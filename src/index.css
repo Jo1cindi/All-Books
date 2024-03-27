@@ -1,0 +1,109 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Spectral", serif;
+  background-color: #FEFAE0;
+  overflow-x: hidden;
+}
+.image{
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books-form{
+  text-align: center;
+  width: 100vw;
+}
+.image img{
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+h2{
+  font-size: 30px;
+  color: #5F6F52;
+  margin-bottom: 20px;
+}
+h4{
+  color: #5F6F52;
+  margin-bottom: 10px;
+}
+h3{
+  color: #5F6F52;
+  margin-bottom: 10px;
+}
+form{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+input{
+  width: 250px;
+  height: 40px;
+  background: none;
+  border: solid 1px #5F6F52;
+  padding: 10px;
+  border-radius: 10px;
+}
+.disabled-input{
+  background-color: #f5f5f5;
+}
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #B99470;
+  color: #FEFAE0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.list{
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  width: 30%;
+  height: 200px;
+}
+h5{
+  color: #5F6F52;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+p{
+  color: #B99470;
+}
+.author{
+  width: 30%;
+  height: 200px;
+}
+.delete-btn{
+  width: 30%;
+  height: 200px;
+}
+.delete-btn button{
+  width: 150px;
+  height: 40px;
+  background-color: #A9B388;
+  color: #FEFAE0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
